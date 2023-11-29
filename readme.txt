@@ -1,1 +1,0 @@
-Projekt dla powtórzenia pracy z Git.
