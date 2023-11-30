@@ -5,7 +5,8 @@ Short description
 Who is author, why created, what tasks he performs, what problems it closes and solves
 
 ```bash
-~ - home directory
+# Home directory
+~
 
 # Show actual path
 pwd 
@@ -15,6 +16,9 @@ cd ~
 
 # Show everything in the actual directory
 ls 
+
+# Open file
+cat name_file.enlargement
 
 # Create file 
 touch name_file.enlargement
@@ -28,6 +32,21 @@ rm name_file.enlargement
 # Remove directory
 rmdir name_directory
 ```
+
+## Git Hash SSH-1
+
+```bash
+
+# Logs hash commit all 
+git log
+
+# Logs hash commit short 
+git log --oneline
+```
+
+The head shows which commit was made last
+.git in this directory service file HEAD
+HEAD can be written instead of the last commit hash
 
 ## Technologies used in the projects. What makes it different from the same ones?
 
