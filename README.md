@@ -44,6 +44,34 @@ git log
 git log --oneline
 ```
 
+### Status files in Git
+
+Status: untracked/tracked, staged and modified 
+
+- Untracked - (z ang. 'niśledzony') - does not track file change
+
+```bash
+git add .
+git add -all
+git add name_file.enlargement
+```
+
+- Staged - (z ang. 'zainscenizowany') - staging area (z ang. 'strefa postojowa') - list of files that will go into the commite
+Staging area or index or cached 
+
+```bash
+git commit -m "comment"
+```
+
+- Tracked - (z ang. 'śledzony') - in this status all files in which there is a trace of changes
+
+- modified - (z ang. 'zmodyfikowany') - compares with the last saved version and shows the changes that took place
+
+Image for file livecycle loop in git [File_livecycle](https://pictures.s3.yandex.net/resources/M2_T5_1686651284.png)
+
+
+
+
 The head shows which commit was made last
 .git in this directory service file HEAD
 HEAD can be written instead of the last commit hash
